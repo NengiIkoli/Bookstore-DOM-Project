@@ -12,11 +12,6 @@ Your Project needs to have:
 - A `index.js` file that allows the user to be able to interact with the website, such as pressing buttons, making HTML dynamic, and making HTTP requests to remote API's.
 - You will need to make a GET request using `fetch` to a bookstore API, there is a free open source bookstore api that can be access at [Bookstore API documentation](https://bookstore-api-six.vercel.app/)
 
-## 🌐 Live Demo
-
-[Click here to view the live site](https://yourusername.github.io/Bookstore-DOM-Project/)  
-_(replace with your actual GitHub Pages URL after deployment)_
-
 Code Example:
 ```JavaScript
 fetch('https://bookstore-api-six.vercel.app/api/books')
