@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Project</title>
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Load JavaScript file after HTML parsing -->
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <!-- Main container for the entire layout -->
+    <div class="container">
+
+        <!-- Page heading -->
+        <h1 class="title">Welcome to the Book Store!</h1>
+
+        <!-- Book submission form section -->
+        <div class="form-container">
+            <h2 class="form-title">Add a Book to the Store</h2>
+
+            <form id="book-form">
+                <input type="text" id="title" placeholder="Book Title" class="input">
+                <input type="text" id="author" placeholder="Book Author" class="input">
+                <input type="text" id="publisher" placeholder="Book Publisher" class="input">
+                <button type="submit" class="btn add-btn">Add Book</button>
+            </form>
+        </div>
+
+        <!-- Book list display section -->
+        <div class="book-list">
+            <h2 class="form-title">Books in Stock</h2>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Publisher</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <!-- Table body for dynamic book entries -->
+                <tbody id="books-container">
+                    <!-- Book rows will be rendered here via JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
